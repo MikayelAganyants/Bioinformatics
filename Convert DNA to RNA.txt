@@ -1,0 +1,25 @@
+dna = input("Enter a dna string\t").upper()
+
+if "A" not in dna:
+    
+	print("this is not a dna string")
+
+elif "T" not in dna:
+    
+	print("this is not a dna string")
+
+elif "C" not in dna:
+    
+	print("this is not a dna string")
+
+elif "G" not in dna:
+    
+	print("this is not a dna string")
+
+else:
+    
+	if dna:
+        
+		rna = dna.replace("T","U")
+        
+		print(rna)
